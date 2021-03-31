@@ -1,0 +1,31 @@
+Configurar o Setup:
+npm install -g @angular/cli
+
+Criar app
+ng new NameApp
+
+Adicionar novo componente
+ng g c nomeComponente
+
+Foreach no html
+*ngFor = "for item of collection"
+
+Configurar rota
+app-rountig.module.ts
+
+Ir para rota sem recarregar a página
+routerLink na tag <a>
+
+Instalar bootstrap
+npm i bootstrap
+
+mr-auto na classe do html
+Ocupa automaticamente todo o espaço com sobra pro 
+próximo componente
+
+Condicional para classes do html
+[ngClass="{'com-sm-6'}"]
+
+Reactive Forms:
+1. Importar no app.module ReactiveFormsModule
+2. Criar a propriedade no componente do tipo FormGroup 
